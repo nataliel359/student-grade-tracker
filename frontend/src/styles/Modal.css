@@ -1,0 +1,42 @@
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 18px;
+    position: relative;
+}
+.modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.modal input {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+.modal button {
+    background: #07142c;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.close-btn {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    background: none !important;
+    color: black !important;
+    font-size: 24px;
+}

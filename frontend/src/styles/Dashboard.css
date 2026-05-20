@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f6f7fb;
+    margin: 0;
+}
+
+.dashboard {
+    padding: 30px;
+}
+
+.topbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topbar button {
+    background: #07142c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.student-card,
+.table-card {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    margin-top: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.stats {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 18px 0;
+    border-bottom: 1px solid #eee;
+}
